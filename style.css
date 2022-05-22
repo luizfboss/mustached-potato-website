@@ -1,0 +1,119 @@
+body{
+  background-color: rgb(255, 182, 251);
+}
+
+header h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+}
+
+header a{
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.header-container{
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid red;
+}
+
+
+
+
+
+.first-section{
+  display: flex;
+  align-items: center;
+
+  border-radius: 30px;
+  width: 100%;
+  height: 100vh;
+
+  background: url(img/darker-bg.jpg);
+}
+
+.first-section-container{
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  align-items: center;
+}
+
+
+.first-section h1{
+  text-align: center;
+  color: white;
+  font-size: 4.5em;
+}
+
+.first-section a{
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 20px 40px;
+  font-size: 30px;
+
+  background-color: rgba(0, 0, 0, 0.021);
+  border: 2px solid white;
+  color: white;
+  transition-duration: 0.5s;
+}
+.first-section a:hover{
+  background-color: white;
+  color: black;
+}
+
+
+section{
+  margin-bottom: 150px;
+  padding-top: 50px;
+}
+.section-about-us-container{
+  width: 80%;
+  margin: auto;
+}
+.section-about-us h1, .section-samples h1, .section-opensea h1{
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+}
+.section-about-us p, .section-opensea p{
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+.section-opensea{
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  align-items: center;
+}
+
+.section-opensea a{
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #2081E2;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
